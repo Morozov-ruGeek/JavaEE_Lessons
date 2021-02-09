@@ -9,7 +9,6 @@ import java.io.IOException;
 public class FirstServlet implements Servlet {
 
     private static final Logger logger = LoggerFactory.getLogger(FirstServlet.class);
-
     private ServletConfig config;
 
     @Override

@@ -10,6 +10,7 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>web-app</artifactId>
+
     <packaging>war</packaging>
 
     <dependencies>
@@ -29,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>first_web_app</finalName>
+        <finalName>web_app_javaEE</finalName>
 
         <plugins>
             <plugin>
