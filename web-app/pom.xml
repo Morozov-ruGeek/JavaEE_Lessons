@@ -30,7 +30,7 @@
     </dependencies>
 
     <build>
-        <finalName>first_web_app</finalName>
+        <finalName>web_app_javaEE</finalName>
 
         <plugins>
             <plugin>
