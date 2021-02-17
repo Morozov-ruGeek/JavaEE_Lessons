@@ -12,7 +12,7 @@ public class ErrorServlet extends HttpServlet {
 
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
-        req.setAttribute("pageHeader","Страница не найдена: 404");
+        req.setAttribute("pageHeader", "Страница не найдена: 404");
 
     }
 }
