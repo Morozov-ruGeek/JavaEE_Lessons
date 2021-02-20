@@ -14,8 +14,6 @@ public class MainPageServlet extends HttpServlet {
     @Override
     protected void doGet(HttpServletRequest req, HttpServletResponse resp) throws ServletException, IOException {
         req.setAttribute("pageHeader", "Магазин наДиване");
-        req.setAttribute("navigationMenu", "Каталог товаров");
         getServletContext().getRequestDispatcher("/page_header").include(req, resp);
-
     }
 }
